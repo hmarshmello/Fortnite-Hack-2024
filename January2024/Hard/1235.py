@@ -23,6 +23,7 @@ def jobScheduling(self, startTime, endTime, profit):
 
     return self.find(0, job, startTime, n, dp)
 
+
 startTime = [1,2,3,3] 
 endTime = [3,4,5,6]
 profit = [50,10,40,70]
